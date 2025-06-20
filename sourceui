@@ -136,11 +136,12 @@ function Library:Window(options)
     bodyCorner.Name = "bodyCorner"
     bodyCorner.Parent = Body
 
-    SideBar.Name = "SideBar"
-    SideBar.Parent = Body
-    SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
-    SideBar.BorderSizePixel = 0
-    SideBar.Size = UDim2.new(0, 187, 0, 516)
+SideBar.Name = "SideBar"
+SideBar.Parent = Body
+SideBar.BackgroundColor3 = Color3.fromRGB(26, 36, 48)
+SideBar.BackgroundTransparency = 0.3 -- adicionado
+SideBar.BorderSizePixel = 0
+SideBar.Size = UDim2.new(0, 187, 0, 516)
 
     sidebarCorner.CornerRadius = UDim.new(0, 4)
     sidebarCorner.Name = "sidebarCorner"
